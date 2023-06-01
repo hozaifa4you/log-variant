@@ -24,8 +24,3 @@ export default class Log {
     console.log(this.getTime() + "🔴 " + message.red + " 🔴");
   }
 }
-
-Log.success("Hello World");
-Log.info("Hello World");
-Log.warn("Hello World");
-Log.danger("Hello World");
