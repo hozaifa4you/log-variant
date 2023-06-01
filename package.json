@@ -1,0 +1,50 @@
+{
+  "name": "log-variant",
+  "version": "1.0.0",
+  "description": "This is npm package to show colorful log message.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": "false",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yousuf4you/log-variant.git"
+  },
+  "keywords": [
+    "log-variant",
+    "colorful-log-message",
+    "log",
+    "console.log",
+    "log-message",
+    "npm",
+    "package",
+    "js"
+  ],
+  "author": {
+    "name": "Yousuf Ahamad",
+    "email": "yousuf360.ya@gmail.com",
+    "url": "https://facebook.com/yousuf4you"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yousuf4you/log-variant/issues"
+  },
+  "homepage": "https://github.com/yousuf4you/log-variant#readme",
+  "files": [
+    "dist/**/*"
+  ],
+  "devDependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/node": "^20.2.5",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
