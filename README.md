@@ -2,6 +2,8 @@
 
 ## make your console outstanding
 
+`log-variant not work with browser console.`
+
 ## Use case
 
 ```js
@@ -15,6 +17,7 @@ log.info("Hello World, Info Message");
 log.warn("Hello World, Warning Message");
 log.danger("Hello World, Danger Message");
 ```
+
 ![log-varient](https://github.com/yousuf4you/log-variant/assets/60110696/56e8dec6-d11e-4c1d-a4be-383c043d75d7)
 
 Thank You 😍😍❤️❤️
