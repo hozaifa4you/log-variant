@@ -1,6 +1,6 @@
 {
   "name": "log-variant",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is npm package to show colorful log message.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
